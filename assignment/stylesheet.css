@@ -1,27 +1,33 @@
-.body{
+body{
+
   margin: 0;
-  background-color: blue;
+  background-image: url("record.png");
+  background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
 }
 
 .header{
   background-color: maroon;
+  color: pink;
   text-align: center;
 
 }
 .main{
-  background-color: lightgray;
+  padding: 1em;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
 }
-/* - Create a `stylesheet.css` file and source it into the HTML file.
-- Give the `header` a dark background color and choose a light  color for the text.
-- Center the text in the `header`.
-- Give the `main` a light grey background color.
-- Look up the CSS `background-image` property to learn how to use the provided `record.png` as the background image on your page with a relative path.
-- Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image.
-- Look up CSS `margin` and `padding`.
-  - Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.)
-  - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.)
+/* - {Y}Create a `stylesheet.css` file and source it into the HTML file.
+{Y}- Give the `header` a dark background color and choose a light  color for the text.
+{Y}- Center the text in the `header`.
+{Y}- Give the `main` a light grey background color.
+{Y}- Look up the CSS `background-image` property to learn how to use the provided `record.png` as the background image on your page with a relative path.
+{Y}- Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image.
+{Y}- Look up CSS `margin` and `padding`.
+{Y}  - Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.)
+{Y}  - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.)
 
 Here's an example of what the style could look like:
 <img src="./example.png">
 
-__STRETCH GOAL:__ Use CSS style classes vs element names to do your styling, except for adding the margin to the `body`. That is a good thing to add to every CSS file, and it should use the `body` HTML tag name. */
+{}__STRETCH GOAL:__ Use CSS style classes vs element names to do your styling, except for adding the margin to the `body`. That is a good thing to add to every CSS file, and it should use the `body` HTML tag name. */
